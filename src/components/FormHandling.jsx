@@ -10,7 +10,7 @@ const FormHandling = () => {
 
     const clickHandler = (event) => {
         event.preventDefault()
-        console.log("email", data.email.email, "password", data.password);
+        console.log("email: ", data.email, "password: ", data.password);
 
     }
     return (
